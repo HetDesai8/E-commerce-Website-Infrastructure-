@@ -3,9 +3,6 @@ Highly scalable and Highly Available infrastructure to host a 3-tier E-commerce 
 
 
 
-![Architectural Diagram](Architecture.png)
-
-
 ## Requirements
 
 No requirements.
