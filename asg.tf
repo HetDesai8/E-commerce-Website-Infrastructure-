@@ -18,7 +18,7 @@ module "asg" {
   launch_template_description = "launch temlate for asign to het-desai-asg"
   update_default_version      = true
 
-  image_id          = data.aws_ami.jay-ec2.id
+  image_id          = data.aws_ami.hetec2.id
   instance_type     = var.asg_instance_type
   ebs_optimized     = false
   enable_monitoring = true
