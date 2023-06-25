@@ -1,7 +1,22 @@
 # E-commerce-Website-Infrastructure-
 Highly scalable and Highly Available infrastructure to host a 3-tier E-commerce website which will be accessed by millions of users
 
+Task Defination
+1) 3 Tier web application setup which is used my most of the E-Commerce websites
+2) 3 AZ VPC
+3) 3 Tier setup WEB(ALB) in public subnet, APP(php servers) in private subnet, Database(mysql-single az) in private subnet.
 
+Architure Diagram
+
+![image](https://github.com/HetDesai8/E-commerce-Website-Infrastructure-/assets/77717443/1c2ddce7-c8c2-409a-8fc1-80caa5637472)
+
+
+Output 
+
+![image](https://github.com/HetDesai8/E-commerce-Website-Infrastructure-/assets/77717443/929b5827-02de-4136-8682-c9a6f501baf5)
+
+
+![image](https://github.com/HetDesai8/E-commerce-Website-Infrastructure-/assets/77717443/f04d0992-bb4a-4252-b883-cdf60ab8fd26)
 
 ## Requirements
 
