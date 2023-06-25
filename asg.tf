@@ -26,7 +26,7 @@ module "asg" {
   security_groups   = [module.app_sg.security_group_id]
 #
   create_iam_instance_profile = true
-  iam_role_name               = "jay-sheth-ec2ssm-role"
+  iam_role_name               = "het-ec2ssm-role"
   iam_role_path               = "/ec2/"
   iam_role_description        = "IAM SSM role for ec2"
   iam_role_tags = {
