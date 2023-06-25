@@ -1,4 +1,4 @@
-data "aws_ami" "jay-ec2" {
+data "aws_ami" "het-ec2" {
   owners      = ["amazon"]
   most_recent = true
   filter {
